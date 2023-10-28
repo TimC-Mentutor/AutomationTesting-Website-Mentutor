@@ -77,41 +77,4 @@ public class MentorHomePage {
 
 //        webDriver.findElement(By.xpath(xpath)).click();
     }
-    // -------------TASK MENTOR-----------
-    public void clickButtonTaskMentor() {
-        taskPage.click();
-    }
-    public void clickButtonElipsisOnTaskMentor() {
-        elipsisTask.click();
-    }
-    public void clickButtonForumMentor(){
-        forumMentor.click();
-    }
-    public boolean verifyOnForumPageMentor(){
-        return onForumMentor.isDisplayed();
-    }
-    public void clickFieldCommentOnForumMentor(){
-        fieldCommentForumMentor.click();
-    }
-    public void setCommentByMentor(String comment) {
-        fieldCommentForumMentor.sendKeys(comment);
-    }
-    public void clickButtonPaperPlaneOnForumMentor(){
-        paperPlaneForumMentor.click();
-    }
-    public boolean verifyCommentCanBeInputOnForumPageMentor(){
-        return commentByMentor.isDisplayed();
-    }
-    public void clickButtonloadMoreCommentOnForumMentor(){
-        buttonLoadMoreComments.click();
-    }
-    public boolean verifyCanSeeLoadMoreCommentsOnForumPageMentor(){
-        return loadMoreComments.isDisplayed();
-    }
-    public void clickButtonHideOnForumMentor(){
-        buttonHideForumMentor.click();
-    }
-    public boolean verifyUserSeeButtonEditAndDelete(){
-        return fieldsEditDelete.isDisplayed();
-    }
 }
