@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a22201b-c1bd-43b0-b969-9e9043225ace" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MentorTaskPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/Utils/ConstantMentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MentorTaskSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MenteeTaskPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/Utils/ConstantMenteeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MenteeTasksSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Docs/MenteeTask.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/MenteeTask.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObject/file page disini (MenteeHomePage)" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/Step def disini (MentorHomeSteps)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/feature disini (AdminHome.feature)" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/MenteeHome" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -41,23 +45,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/MentorTask",
+    "git-widget-placeholder": "feature/MenteeTask",
     "last_opened_file_path": "D:/alfian/Coba web testing",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Add task without input title,description,due date,attachment,Images">
-    <configuration name="Scenario: Add task without input Images" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Submit button with no data">
+    <configuration name="Scenario: Mentee &quot;Submit your task&quot; button validation on a valid task" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeTask.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Add task without input Images$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add task without input Images$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Add task without input Images" />
+      <option name="NAME_FILTER" value="^Mentee \&quot;Submit your task\&quot; button validation on a valid task$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Mentee \&quot;Submit your task\&quot; button validation on a valid task$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Mentee &quot;Submit your task&quot; button validation on a valid task" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -69,15 +73,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Add task without input title,description,due date,attachment,Images" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Submit button with no data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeTask.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Add task without input title\,description\,due date\,attachment\,Images$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add task without input title\,description\,due date\,attachment\,Images$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Add task without input title,description,due date,attachment,Images" />
+      <option name="NAME_FILTER" value="^Submit button with no data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Submit button with no data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Submit button with no data" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -89,15 +93,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Input valid title,description,due date,attachment,Images" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Submit button with valid data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeTask.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Input valid title\,description\,due date\,attachment\,Images$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Input valid title\,description\,due date\,attachment\,Images$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Input valid title,description,due date,attachment,Images" />
+      <option name="NAME_FILTER" value="^Submit button with valid data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Submit button with valid data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Submit button with valid data" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -109,15 +113,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: edit task with Input valid title,description,due date,attachment,Images" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Upload button on task validation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeTask.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^edit task with Input valid title\,description\,due date\,attachment\,Images$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^edit task with Input valid title\,description\,due date\,attachment\,Images$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: edit task with Input valid title,description,due date,attachment,Images" />
+      <option name="NAME_FILTER" value="^Upload button on task validation$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Upload button on task validation$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Upload button on task validation" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -129,15 +133,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: input string on due date field" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: &quot;Upload&quot; button validation on task feature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeTask.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^input string on due date field$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^input string on due date field$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: input string on due date field" />
+      <option name="NAME_FILTER" value="^\&quot;Upload\&quot; button validation on task feature$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\&quot;Upload\&quot; button validation on task feature$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: &quot;Upload&quot; button validation on task feature" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -164,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Add task without input title,description,due date,attachment,Images" />
-        <item itemvalue="Cucumber Java.Scenario: input string on due date field" />
-        <item itemvalue="Cucumber Java.Scenario: edit task with Input valid title,description,due date,attachment,Images" />
-        <item itemvalue="Cucumber Java.Scenario: Add task without input Images" />
-        <item itemvalue="Cucumber Java.Scenario: Input valid title,description,due date,attachment,Images" />
+        <item itemvalue="Cucumber Java.Scenario: Submit button with no data" />
+        <item itemvalue="Cucumber Java.Scenario: Submit button with valid data" />
+        <item itemvalue="Cucumber Java.Scenario: &quot;Upload&quot; button validation on task feature" />
+        <item itemvalue="Cucumber Java.Scenario: Mentee &quot;Submit your task&quot; button validation on a valid task" />
+        <item itemvalue="Cucumber Java.Scenario: Upload button on task validation" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +185,19 @@
       <option name="presentableId" value="Default" />
       <updated>1698411319774</updated>
     </task>
+    <task id="LOCAL-00001" summary="feature / mentee home">
+      <option name="closed" value="true" />
+      <created>1698560515373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698560515373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feature / mentee home" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature / mentee home" />
   </component>
 </project>
