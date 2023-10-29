@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a22201b-c1bd-43b0-b969-9e9043225ace" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MentorTaskPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/Utils/ConstantMentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MentorTaskSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MenteeHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/Utils/ConstantMentee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MenteeHomeSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/MenteeHome.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObject/file page disini (MenteeHomePage)" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/Step def disini (MentorHomeSteps)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/feature disini (AdminHome.feature)" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -41,23 +42,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/MentorTask",
+    "git-widget-placeholder": "feature/MenteeHome",
     "last_opened_file_path": "D:/alfian/Coba web testing",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Add task without input title,description,due date,attachment,Images">
-    <configuration name="Scenario: Add task without input Images" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Mentee Profile Icon Button">
+    <configuration name="Scenario: Mentee Logout Button" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeHome.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Add task without input Images$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add task without input Images$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Add task without input Images" />
+      <option name="NAME_FILTER" value="^Mentee Logout Button$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Mentee Logout Button$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Mentee Logout Button" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -69,15 +70,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Add task without input title,description,due date,attachment,Images" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Mentee Profile Icon Button" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeHome.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Add task without input title\,description\,due date\,attachment\,Images$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add task without input title\,description\,due date\,attachment\,Images$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Add task without input title,description,due date,attachment,Images" />
+      <option name="NAME_FILTER" value="^Mentee Profile Icon Button$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Mentee Profile Icon Button$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Mentee Profile Icon Button" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -89,15 +90,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Input valid title,description,due date,attachment,Images" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Mentee Task button" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeHome.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Input valid title\,description\,due date\,attachment\,Images$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Input valid title\,description\,due date\,attachment\,Images$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Input valid title,description,due date,attachment,Images" />
+      <option name="NAME_FILTER" value="^Mentee Task button$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Mentee Task button$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Mentee Task button" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -109,15 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: edit task with Input valid title,description,due date,attachment,Images" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: home button functionality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeHome.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^edit task with Input valid title\,description\,due date\,attachment\,Images$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^edit task with Input valid title\,description\,due date\,attachment\,Images$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: edit task with Input valid title,description,due date,attachment,Images" />
+      <option name="NAME_FILTER" value="^home button functionality$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^home button functionality$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: home button functionality" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -129,15 +130,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: input string on due date field" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeHome.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^input string on due date field$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^input string on due date field$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: input string on due date field" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -164,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Add task without input title,description,due date,attachment,Images" />
-        <item itemvalue="Cucumber Java.Scenario: input string on due date field" />
-        <item itemvalue="Cucumber Java.Scenario: edit task with Input valid title,description,due date,attachment,Images" />
-        <item itemvalue="Cucumber Java.Scenario: Add task without input Images" />
-        <item itemvalue="Cucumber Java.Scenario: Input valid title,description,due date,attachment,Images" />
+        <item itemvalue="Cucumber Java.Scenario: Mentee Profile Icon Button" />
+        <item itemvalue="Cucumber Java.Scenario: Mentee Logout Button" />
+        <item itemvalue="Cucumber Java.Scenario: Mentee Task button" />
+        <item itemvalue="Cucumber Java.Scenario: home button functionality" />
+        <item itemvalue="Cucumber Java.Scenario: " />
       </list>
     </recent_temporary>
   </component>
