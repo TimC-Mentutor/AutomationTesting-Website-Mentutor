@@ -35,10 +35,10 @@ public class MentorProfileSteps {
 
     @And("User already on edit profile")
     public void userAlreadyOnEditProfile() {
-        Assert.assertTrue(mentorProfilePage.verifyOnProfilePageMentor());
+        Assert.assertTrue(mentorProfilePage.verifyOnEditProfileMentor());
     }
 
-    @When("User input {string} as a name {string} as a email {string} as a password {string} as a images")
+    @When("User input {string} as a name {string} as a email {string} as a password {string} as a profile")
     public void userInputAsANameAsAEmailAsAPasswordAsAImages(String name, String email, String password, String images) throws InterruptedException {
         mentorProfilePage.setEditNameProfileMentor(name);
         mentorProfilePage.setEditEmailProfileMentor(email);
@@ -54,4 +54,6 @@ public class MentorProfileSteps {
         Thread.sleep(3000);
 
     }
+
+
 }

@@ -1,5 +1,6 @@
 package org.example.pageObject;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,15 +21,15 @@ public class MentorProfilePage {
     public static WebElement buttonPencil;
     @FindBy(xpath = "//h3[@class='font-medium text-lg text-putih mb-2']")
     private WebElement editProfilePage;
-    @FindBy(css = "//input[@id='input-fullname']")
+    @FindBy(xpath = "//input[@id='input-fullname']")
     private WebElement editNameProfileMentor;
-    @FindBy(css = "//input[@id='input-email']")
+    @FindBy(xpath = "//input[@id='input-email']")
     private WebElement editEmailProfileMentor;
-    @FindBy(css = "//input[@id='input-password']")
+    @FindBy(xpath = "//input[@id='input-password']")
     private WebElement editPasswordProfileMentor;
-    @FindBy(css = "//label[@id='btn-upload-gbr']")
+    @FindBy(xpath = "//input[@id='btn-gbr']")
     private WebElement editImagesProfileMentor;
-    @FindBy(css = "//button[@id='btn-submitMentee']")
+    @FindBy(xpath = "//button[@id='btn-submitMentee']")
     public static WebElement buttonSubmitEdtProflMentor;
 
 
@@ -60,6 +61,7 @@ public class MentorProfilePage {
         editPasswordProfileMentor.sendKeys(edtPsswdPrflMntr);
     }
     public void setEditImagesProfileMentor(String edtimgsPrflMntr) {
+        ((JavascriptExecutor)webDriver).executeScript("arguments[0].setAttribute('style', 'visibility:visible'); arguments[0].setAttribute('style', 'display:block');", editImagesProfileMentor);
         editImagesProfileMentor.sendKeys(edtimgsPrflMntr);
     }
 }
