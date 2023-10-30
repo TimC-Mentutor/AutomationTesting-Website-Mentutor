@@ -1,3 +1,4 @@
+@MENTUTOR
 @MENTEEHOME
   Feature: Mentee Home
     Scenario: home button functionality
