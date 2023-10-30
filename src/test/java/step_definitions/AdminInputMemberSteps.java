@@ -86,4 +86,21 @@ public class AdminInputMemberSteps {
     public void userSeeOthersRoleOnButtonMentorAndMentee() {
         Assert.assertTrue(adminInputMemberPage.verifyUserSeeOthersRole());
     }
+
+    // case 6
+    @When("User input {string} as a name {string} as a email")
+    public void userInputAsANameAsAEmail(String name, String email) {
+        adminInputMemberPage.setName(name);
+        adminInputMemberPage.setEmail(email);
+    }
+
+    @Then("User click button dropdown class admin")
+    public void userClickButtonDropdownClassAdmin() {
+        driverWait.until(ExpectedConditions.elementToBeClickable(AdminHomePage.buttonSubmit));
+        adminInputMemberPage.clickButtonSubmitOnPopupEditUserAdmin();
+    }
+
+    @And("User see list of class on dropdown class")
+    public void userSeeListOfClassOnDropdownClass() {
+    }
 }
