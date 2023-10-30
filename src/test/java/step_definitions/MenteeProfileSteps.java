@@ -51,7 +51,6 @@ public class MenteeProfileSteps {
 //CASE5
     @And("User click on an upload button and choose {string} as an image")
     public void userClickOnAnUploadButtonAndChooseAsAnImage(String image)  {
-        driverWait.until(ExpectedConditions.elementToBeClickable(MenteeProfilePage.uploadImageProfile));
         menteeProfilePage.uploadImageMenteeProfilePage(ConstantMenteeProfilePage.IMAGES + image);
     }
 //CASE6

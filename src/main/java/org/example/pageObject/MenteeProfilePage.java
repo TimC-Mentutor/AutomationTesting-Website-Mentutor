@@ -1,5 +1,6 @@
 package org.example.pageObject;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -25,7 +26,7 @@ public class MenteeProfilePage {
     private WebElement inputEmailonProfile;
     @FindBy(xpath = "//input[@id='input-password']")
     private WebElement inputPasswordProfile;
-    @FindBy(id ="btn-upload-gbr" )
+    @FindBy(xpath ="//input[@id='btn-gbr']" )
     public static WebElement uploadImageProfile;
     @FindBy(xpath = "//button[@id='btn-submitMentee']")
     public static WebElement submitButtonMenteeProfile;
@@ -43,7 +44,10 @@ public class MenteeProfilePage {
     public void editPasswordMenteeProfilePage(String password)
     {inputPasswordProfile.sendKeys(password);}
     public void uploadImageMenteeProfilePage(String image)
-    {uploadImageProfile.sendKeys(image);}
+    {
+        ((JavascriptExecutor)webDriver).executeScript("arguments[0].setAttribute('style', 'visibility:visible'); arguments[0].setAttribute('style', 'display:block');", uploadImageProfile);
+        uploadImageProfile.sendKeys(image);
+    }
     public void clickSubmitButtonOnMenteeProfilePage()
     {submitButtonMenteeProfile.click();}
 

@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a22201b-c1bd-43b0-b969-9e9043225ace" name="Changes" comment="feature / mentee task">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MenteeProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/Utils/ConstantMenteeProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MenteeProfileSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Images/MenteeProfilePicture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/MenteeProfile.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MenteeProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MenteeProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MenteeProfileSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MenteeProfileSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/MenteeProfile",
-    "last_opened_file_path": "D:/alfian/AutomationTesting-Website-Mentutor/src/test/resources/Images",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/MenteeProfile&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/alfian/AutomationTesting-Website-Mentutor/src/test/resources/Images&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\alfian\AutomationTesting-Website-Mentutor\src\test\resources\Images" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Submit with all data filled">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Upload button Functionality">
     <configuration name="Scenario: Input valid title,description,due date,attachment,Images" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" />
@@ -176,8 +172,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Submit with all data filled" />
         <item itemvalue="Cucumber Java.Scenario: Upload button Functionality" />
+        <item itemvalue="Cucumber Java.Scenario: Submit with all data filled" />
         <item itemvalue="Cucumber Java.Scenario: Name field validation" />
         <item itemvalue="Cucumber Java.Scenario: add button validation on task mentor" />
         <item itemvalue="Cucumber Java.Scenario: Input valid title,description,due date,attachment,Images" />
@@ -201,11 +197,28 @@
       <option name="project" value="LOCAL" />
       <updated>1698500490607</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature / mentee forum update">
+      <option name="closed" value="true" />
+      <created>1698650153995</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698650153995</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feature / mentee forum update">
+      <option name="closed" value="true" />
+      <created>1698650175621</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698650175621</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update AdminHome" />
-    <option name="LAST_COMMIT_MESSAGE" value="update AdminHome" />
+    <MESSAGE value="feature / mentee forum update" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature / mentee forum update" />
   </component>
 </project>
