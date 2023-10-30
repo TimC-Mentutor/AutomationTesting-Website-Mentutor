@@ -4,12 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a22201b-c1bd-43b0-b969-9e9043225ace" name="Changes" comment="update AdminHome">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/AdminInputMemberPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/AdminInputMemberSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,23 +34,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/AdminInputMember",
     "last_opened_file_path": "D:/alfian/Coba web testing",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Dropdown role field validation on input member admin">
-    <configuration name="Scenario: Dropdown role field validation on input member admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Dropdown role field validation on input member admin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Dropdown role field validation on input member admin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Dropdown role field validation on input member admin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -68,15 +51,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Input member button validation on input member admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Input member button validation on input member admin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Input member button validation on input member admin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Input member button validation on input member admin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -88,15 +62,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Name field validation on input member admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Name field validation on input member admin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Name field validation on input member admin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Name field validation on input member admin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -108,15 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Password field validation on input member admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Password field validation on input member admin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Password field validation on input member admin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Password field validation on input member admin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -128,15 +84,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Submit button validation on popup edit user is blank on home admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminHome.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminInputClass.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Submit button validation on popup edit user is blank on home admin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Submit button validation on popup edit user is blank on home admin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Submit button validation on popup edit user is blank on home admin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -163,11 +115,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Dropdown role field validation on input member admin" />
-        <item itemvalue="Cucumber Java.Scenario: Password field validation on input member admin" />
-        <item itemvalue="Cucumber Java.Scenario: Name field validation on input member admin" />
-        <item itemvalue="Cucumber Java.Scenario: Input member button validation on input member admin" />
-        <item itemvalue="Cucumber Java.Scenario: Submit button validation on popup edit user is blank on home admin" />
       </list>
     </recent_temporary>
   </component>
@@ -188,11 +135,20 @@
       <option name="project" value="LOCAL" />
       <updated>1698500490607</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update AdminInputClass case">
+      <option name="closed" value="true" />
+      <created>1698600853221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698600853221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update AdminHome" />
-    <option name="LAST_COMMIT_MESSAGE" value="update AdminHome" />
+    <MESSAGE value="update AdminInputClass case" />
+    <option name="LAST_COMMIT_MESSAGE" value="update AdminInputClass case" />
   </component>
 </project>
