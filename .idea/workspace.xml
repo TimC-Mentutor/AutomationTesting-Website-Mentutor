@@ -4,12 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a22201b-c1bd-43b0-b969-9e9043225ace" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MentorProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MentorProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MentorProfileSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MentorProfileSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MentorProfile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MentorProfile.feature" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +19,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -33,107 +30,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/MentorProfile&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AaaalterraAcademy/CAPSTONE PROJECT/AutomationTesting-Website-Mentutor/src/test/java/step_definitions&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
-  }
-}</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Update profile without input name,email,password">
-    <configuration name="Scenario: Input valid name,email and password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorProfile.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Input valid name\,email and password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Input valid name\,email and password$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Input valid name,email and password" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Input with invalid email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorProfile.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Input with invalid email$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Input with invalid email$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Input with invalid email" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Update profile without input name,email,password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorProfile.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Update profile without input name\,email\,password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Update profile without input name\,email\,password$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Update profile without input name,email,password" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Verify button submit working" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorProfile.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Verify button submit working$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify button submit working$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify button submit working" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Verify the Symbol pencil is working" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorProfile.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Verify the Symbol pencil is working$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify the Symbol pencil is working$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify the Symbol pencil is working" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -160,11 +56,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Update profile without input name,email,password" />
-        <item itemvalue="Cucumber Java.Scenario: Input with invalid email" />
-        <item itemvalue="Cucumber Java.Scenario: Verify button submit working" />
-        <item itemvalue="Cucumber Java.Scenario: Verify the Symbol pencil is working" />
-        <item itemvalue="Cucumber Java.Scenario: Input valid name,email and password" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +68,28 @@
       <option name="presentableId" value="Default" />
       <updated>1698411319774</updated>
     </task>
+    <task id="LOCAL-00001" summary="update AdminHome">
+      <option name="closed" value="true" />
+      <created>1698500490607</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698500490607</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update AdminInputClass case">
+      <option name="closed" value="true" />
+      <created>1698600853221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698600853221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update AdminHome" />
+    <MESSAGE value="update AdminInputClass case" />
+    <option name="LAST_COMMIT_MESSAGE" value="update AdminInputClass case" />
   </component>
 </project>
