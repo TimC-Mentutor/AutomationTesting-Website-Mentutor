@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +20,6 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/MentorForum" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+
       </list>
     </recent_temporary>
   </component>
@@ -74,28 +75,5 @@
       <option name="presentableId" value="Default" />
       <updated>1698411319774</updated>
     </task>
-    <task id="LOCAL-00001" summary="update AdminHome">
-      <option name="closed" value="true" />
-      <created>1698500490607</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1698500490607</updated>
-    </task>
-    <task id="LOCAL-00002" summary="update AdminInputClass case">
-      <option name="closed" value="true" />
-      <created>1698600853221</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1698600853221</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
-    <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="update AdminHome" />
-    <MESSAGE value="update AdminInputClass case" />
-    <option name="LAST_COMMIT_MESSAGE" value="update AdminInputClass case" />
   </component>
 </project>
