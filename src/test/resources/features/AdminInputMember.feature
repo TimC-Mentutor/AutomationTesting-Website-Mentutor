@@ -64,3 +64,31 @@ Feature: Admin Input Member
     When User input "Member Auto001" as a name "member001@gmail.com" as a email
     Then User click button dropdown class on input member admin
     And User see list of class on dropdown class on input member
+
+  @AdminInputMember
+  @Negative-case
+  Scenario: Dropdown class field validation when name and email field blank on input member admin
+    Given User open the website mentutor
+    When User input "admin1.mentutor@gmail.com" as a email "Admin123$" as a password
+    Then User click OK on login successful
+    Then User click button input member admin
+    And User already on input member page admin
+    When User input blank "" as a name "" as a email
+    Then User click button dropdown class on input member admin
+    And User see list of class on dropdown class on input member
+
+  @AdminInputMember
+  @Positive-case
+  Scenario: Add button validation on input member admin
+    Given User open the website mentutor
+    When User input "admin1.mentutor@gmail.com" as a email "Admin123$" as a password
+    Then User click OK on login successful
+    Then User click button input member admin
+    And User already on input member page admin
+    When User input "Member Auto" as a name "member001@gmail.com" as a email "Member123$" as a password
+    Then User click button dropdown role on input member admin
+    Then User click existed data on dropdown role input member
+    Then User click button dropdown class on input member admin
+    Then User click existed data on dropdown class input member
+    Then User click button add on input member admin
+    Then User click OK on register success popup

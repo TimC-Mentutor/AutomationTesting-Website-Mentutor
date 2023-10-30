@@ -32,8 +32,16 @@ public class AdminInputMemberPage {
     public static WebElement dropdownChooseRole;
     @FindBy(xpath = "//select[@id='dropdown-class']")
     public static WebElement dropdownClass;
-    @FindBy(xpath = "//option[.='QE - 11']")
+    @FindBy(xpath = "//select[@id='dropdown-class']")
     public static WebElement dropdownChooseClass;
+    @FindBy(xpath = "//option[@id='mentor']")
+    public static WebElement chooseRoleData;
+    @FindBy(xpath = "//option[.='QE - 11']")
+    public static WebElement chooseClassData;
+    @FindBy(xpath = "//button[@id='btn-addMember']")
+    public static WebElement buttonAdd;
+    @FindBy(xpath = "//button[@class='swal2-confirm swal2-styled']")
+    public static WebElement buttonOkRegister;
 
 
     // -------------ADMIN INPUT MEMBER-----------
@@ -53,15 +61,15 @@ public class AdminInputMemberPage {
         clickFieldPassword.click();
     }
     public void setName(String nme) {
-        name.clear();
+//        name.clear();
         name.sendKeys(nme);
     }
     public void setEmail(String mail) {
-        name.clear();
+//        name.clear();
         email.sendKeys(mail);
     }
     public void setPassword(String pswd) {
-        name.clear();
+//        name.clear();
         password.sendKeys(pswd);
     }
     public void clickButtonDropdownButtonAdmin() {
@@ -76,5 +84,17 @@ public class AdminInputMemberPage {
     public boolean verifyUserSeeOthersClassInputMember(){
         return dropdownChooseClass.isDisplayed();
     }
-
+    public void clickDataRoleInputMemberAdmin() {
+        chooseRoleData.click();
+    }
+    public void clickDataClassInputMemberAdmin() {
+        chooseClassData.click();
+    }
+    public void clickButtonAddMember() {
+        buttonAdd.click();
+    }
+    public void clickButtonOkInputMember() {
+        buttonOkRegister.click();
+    }
 }
+

@@ -8,10 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObject/AdminInputMemberPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/AdminInputMemberPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/AdminInputMemberSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/AdminInputMemberSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MentorHomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MentorHomeSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AdminHome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AdminHome.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MentorHome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MentorHome.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,47 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Add button validation on input member admin">
+    <configuration name="Scenario: Add button validation on input member admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="BDDSauceDemo" />
+      <option name="NAME_FILTER" value="^Add button validation on input member admin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add button validation on input member admin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add button validation on input member admin" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Dropdown class field validation when name and email field blank on input member admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="BDDSauceDemo" />
+      <option name="NAME_FILTER" value="^Dropdown class field validation when name and email field blank on input member admin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Dropdown class field validation when name and email field blank on input member admin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Dropdown class field validation when name and email field blank on input member admin" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Dropdown class field validation when name and email field filed on input member admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" />
@@ -81,6 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Add button validation on input member admin" />
+        <item itemvalue="Cucumber Java.Scenario: Dropdown class field validation when name and email field blank on input member admin" />
         <item itemvalue="Cucumber Java.Scenario: Dropdown class field validation when name and email field filed on input member admin" />
       </list>
     </recent_temporary>
@@ -94,6 +133,15 @@
       <option name="presentableId" value="Default" />
       <updated>1698411319774</updated>
     </task>
+    <task id="LOCAL-00001" summary="update AdminInputMember case">
+      <option name="closed" value="true" />
+      <created>1698657460604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698657460604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

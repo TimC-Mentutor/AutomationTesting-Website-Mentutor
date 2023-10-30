@@ -88,6 +88,7 @@ public class AdminInputMemberSteps {
         Assert.assertTrue(adminInputMemberPage.verifyUserSeeOthersRole());
     }
 
+    // case 6
     @When("User input {string} as a name {string} as a email")
     public void userInputAsANameAsAEmail(String name, String email) {
         adminInputMemberPage.setName(name);
@@ -102,8 +103,61 @@ public class AdminInputMemberSteps {
     }
 
     @And("User see list of class on dropdown class on input member")
-    public void userSeeListOfClassOnDropdownClass() {
+    public void userSeeListOfClassOnDropdownClass() throws InterruptedException {
         Assert.assertTrue(adminInputMemberPage
                 .verifyUserSeeOthersClassInputMember());
+        Thread.sleep(3000);
+    }
+
+    // case 7
+    @When("User input blank {string} as a name {string} as a email")
+    public void userInputBlankAsANameAsAEmail(String name, String email) {
+        adminInputMemberPage.setName(name);
+        adminInputMemberPage.setEmail(email);
+    }
+
+    @When("User input {string} as a name {string} as a email {string} as a password")
+    public void userInputAsANameAsAEmailAsAPassword(String name, String email, String password) throws InterruptedException {
+        adminInputMemberPage.setName(name);
+        adminInputMemberPage.setEmail(email);
+        adminInputMemberPage.setPassword(password);
+        Thread.sleep(3000);
+    }
+
+    // case 8
+    @Then("User click button dropdown role on input member admin")
+    public void userClickButtonDropdownRoleOnInputMemberAdmin() throws InterruptedException {
+        driverWait.until(ExpectedConditions
+                .elementToBeClickable(AdminInputMemberPage.dropdownRole));
+        adminInputMemberPage.clickButtonDropdownButtonAdmin();
+//        Thread.sleep(3000);
+    }
+
+    @Then("User click existed data on dropdown role input member")
+    public void userClickExistedDataOnDropdownRoleInputMember() throws InterruptedException {
+        driverWait.until(ExpectedConditions
+                .elementToBeClickable(AdminInputMemberPage.chooseRoleData));
+        adminInputMemberPage.clickDataRoleInputMemberAdmin();
+//        Thread.sleep(8000);
+    }
+
+    @Then("User click existed data on dropdown class input member")
+    public void userClickExistedDataOnDropdownClassInputMember() throws InterruptedException {
+//        driverWait.until(ExpectedConditions.elementToBeClickable(AdminInputMemberPage.chooseClassData));
+        Thread.sleep(38000);
+        adminInputMemberPage.clickDataClassInputMemberAdmin();
+
+    }
+
+    @Then("User click button add on input member admin")
+    public void userClickButtonAddOnInputMemberAdmin() {
+        driverWait.until(ExpectedConditions.elementToBeClickable(AdminInputMemberPage.buttonAdd));
+        adminInputMemberPage.clickButtonAddMember();
+    }
+
+    @Then("User click OK on register success popup")
+    public void userClickOKOnRegisterSuccessPopup() {
+        driverWait.until(ExpectedConditions.elementToBeClickable(AdminInputMemberPage.buttonOkRegister));
+        adminInputMemberPage.clickButtonOkInputMember();
     }
 }
