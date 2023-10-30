@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a22201b-c1bd-43b0-b969-9e9043225ace" name="Changes" comment="feature / mentee task">
+    <list default="true" id="4a22201b-c1bd-43b0-b969-9e9043225ace" name="Changes" comment="feature / mentee profile update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MenteeProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MenteeProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MenteeProfileSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MenteeProfileSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MenteeProfile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MenteeProfile.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,12 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698650175621</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feature / mentee profile update">
+      <option name="closed" value="true" />
+      <created>1698650994225</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698650994225</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update AdminHome" />
     <MESSAGE value="feature / mentee forum update" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature / mentee forum update" />
+    <MESSAGE value="feature / mentee profile update" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature / mentee profile update" />
   </component>
 </project>

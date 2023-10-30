@@ -1,3 +1,4 @@
+@MENTUTOR
 @MENTEEPROFILE
   Feature: Mentee Profile
     Scenario: Verify pencil button is working
