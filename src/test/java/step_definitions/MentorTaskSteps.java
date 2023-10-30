@@ -49,7 +49,8 @@ public class MentorTaskSteps {
         mentorTaskPage.setTitle(title);
         mentorTaskPage.setDescription(description);
         mentorTaskPage.setDue_Date(due_date);
-
+        mentorTaskPage.setEditAttachment(ConstantMentor.DOCS + attachment);
+        mentorTaskPage.setEditImages(ConstantMentor.IMAGES + images);
     }
 
     @Then("User click button add on task mentor")

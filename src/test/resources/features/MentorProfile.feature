@@ -1,3 +1,6 @@
+@MENTUTOR
+@MENTOR
+@MENTORPROFILE
 @MentorProfile
 Feature:Mentor task
 

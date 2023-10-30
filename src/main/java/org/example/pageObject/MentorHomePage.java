@@ -36,6 +36,8 @@ public class MentorHomePage {
     public static WebElement buttonHideForumMentor;
     @FindBy(xpath = "//div[@class='h-screen ml-[50px] md:ml-[200px] lg:ml-[320px] relative p-6 md:px-14 md:pt-10 md:pb-10 ']/form[1]//ul[@class='dropdown-content menu p-1 shadow-md bg-card rounded-[10px] w-[6rem] text-sm  text-abu']")
     private WebElement fieldsEditDelete;
+    @FindBy(xpath = "//div[@class='space-y-6']/div[1]//h1[@id='click-title']")
+    public static WebElement buttonTitleHomePageMentor;
 
 
 
@@ -58,8 +60,7 @@ public class MentorHomePage {
         return homePage.isDisplayed();
     }
     public void clickButtonTitleTaskMentor() {
-        String xpath = "//h1[.='tugas expired']";
-        webDriver.findElement(By.xpath(xpath)).click();
+        buttonTitleHomePageMentor.click();
     }
     public boolean verifyOnDetailTaskPageMentor(){
         return homePage.isDisplayed();

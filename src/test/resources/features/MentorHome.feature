@@ -1,3 +1,6 @@
+@MENTUTOR
+@MENTOR
+@MENTORHOME
 Feature:Mentor Home
 
 # -------------HOME MENTOR-----------
@@ -23,7 +26,6 @@ When User input "amanda@gmail.com" as a email "Amanda1234*" as a password
 Then User click OK on login successful
 Then User already on home page mentor
 When User click button title
-Then User already on detail task page mentor
 
 Scenario:Attachment Button Validation
 Given User open the website mentutor

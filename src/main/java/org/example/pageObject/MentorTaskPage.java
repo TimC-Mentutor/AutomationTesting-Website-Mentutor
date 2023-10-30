@@ -138,10 +138,10 @@ public class MentorTaskPage {
         editDueDate.sendKeys(edtdudt);
     }
     public void setEditAttachment(String edtattchmnt) {
-        editAttachment.sendKeys(edtattchmnt);
+        attachment.sendKeys(edtattchmnt);
     }
     public void setEditImages(String edtimgs) {
-        editImages.sendKeys(edtimgs);
+        images.sendKeys(edtimgs);
     }
     public void clickButtonSubmitEditTaskOnTaskMentor() {
         buttonSubmit.click();

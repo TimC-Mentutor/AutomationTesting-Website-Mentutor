@@ -1,3 +1,6 @@
+@MENTUTOR
+@MENTOR
+@MENTORTASK
 @MentorTask
 Feature:Mentor task
   Scenario:Task button fungsionality on task mentor
