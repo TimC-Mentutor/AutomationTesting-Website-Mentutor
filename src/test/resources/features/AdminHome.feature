@@ -1,4 +1,4 @@
-@Admin
+@MENTUTOR
 Feature: Admin Home
   @AdminHome
   @Positive-case

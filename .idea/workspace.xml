@@ -4,38 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
+    <list default="true" id="4a22201b-c1bd-43b0-b969-9e9043225ace" name="Changes" comment="update AdminInputMember case">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObject/AdminInputMemberPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/AdminInputMemberPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/AdminInputMemberSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/AdminInputMemberSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MentorHomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MentorHomeSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AdminHome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AdminHome.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MentorHome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MentorHome.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="feature/mentor" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
+    &quot;associatedIndex&quot;: 7
+    }</component>
   <component name="ProjectId" id="2XLbTu85gYJ3x4ZN54NnxGQ7O2H" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Development&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/alfian/Coba web testing&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Scenario: Dropdown class field validation when name and email field filed on input member admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="BDDSauceDemo" />
+      <option name="NAME_FILTER" value="^Dropdown class field validation when name and email field filed on input member admin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Dropdown class field validation when name and email field filed on input member admin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Dropdown class field validation when name and email field filed on input member admin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -62,7 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
-
+        <item itemvalue="Cucumber Java.Scenario: Dropdown class field validation when name and email field filed on input member admin" />
       </list>
     </recent_temporary>
   </component>
@@ -75,5 +94,10 @@
       <option name="presentableId" value="Default" />
       <updated>1698411319774</updated>
     </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update AdminInputMember case" />
+    <option name="LAST_COMMIT_MESSAGE" value="update AdminInputMember case" />
   </component>
 </project>

@@ -30,6 +30,10 @@ public class AdminInputMemberPage {
     public static WebElement dropdownRole;
     @FindBy(xpath = "//select[@id='dropdown-role']")
     public static WebElement dropdownChooseRole;
+    @FindBy(xpath = "//select[@id='dropdown-class']")
+    public static WebElement dropdownClass;
+    @FindBy(xpath = "//option[.='QE - 11']")
+    public static WebElement dropdownChooseClass;
 
 
     // -------------ADMIN INPUT MEMBER-----------
@@ -49,13 +53,15 @@ public class AdminInputMemberPage {
         clickFieldPassword.click();
     }
     public void setName(String nme) {
-//        name.clear();
+        name.clear();
         name.sendKeys(nme);
     }
     public void setEmail(String mail) {
+        name.clear();
         email.sendKeys(mail);
     }
     public void setPassword(String pswd) {
+        name.clear();
         password.sendKeys(pswd);
     }
     public void clickButtonDropdownButtonAdmin() {
@@ -64,4 +70,11 @@ public class AdminInputMemberPage {
     public boolean verifyUserSeeOthersRole(){
         return dropdownChooseRole.isDisplayed();
     }
+    public void clickButtonDropdownInputMemberAdmin() {
+        dropdownClass.click();
+    }
+    public boolean verifyUserSeeOthersClassInputMember(){
+        return dropdownChooseClass.isDisplayed();
+    }
+
 }

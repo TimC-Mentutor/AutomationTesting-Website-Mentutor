@@ -4,6 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.pageObject.AdminHomePage;
+import org.example.pageObject.AdminInputClassPage;
 import org.example.pageObject.AdminInputMemberPage;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
@@ -85,5 +86,24 @@ public class AdminInputMemberSteps {
     @And("User see others role on button Mentor and Mentee")
     public void userSeeOthersRoleOnButtonMentorAndMentee() {
         Assert.assertTrue(adminInputMemberPage.verifyUserSeeOthersRole());
+    }
+
+    @When("User input {string} as a name {string} as a email")
+    public void userInputAsANameAsAEmail(String name, String email) {
+        adminInputMemberPage.setName(name);
+        adminInputMemberPage.setEmail(email);
+    }
+
+    @Then("User click button dropdown class on input member admin")
+    public void userClickButtonDropdownClassAdmin() {
+        driverWait.until(ExpectedConditions.elementToBeClickable(AdminInputMemberPage.dropdownClass));
+//        Thread.sleep(3000);
+        adminInputMemberPage.clickButtonDropdownInputMemberAdmin();
+    }
+
+    @And("User see list of class on dropdown class on input member")
+    public void userSeeListOfClassOnDropdownClass() {
+        Assert.assertTrue(adminInputMemberPage
+                .verifyUserSeeOthersClassInputMember());
     }
 }

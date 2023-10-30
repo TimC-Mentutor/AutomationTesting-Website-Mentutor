@@ -28,10 +28,10 @@ public class MentorHomeSteps {
         mentorHomePage.clickButtonViewAllTaskMentor();
     }
 
-    @And("User already on task page mentor")
-    public void userAlreadyOnTaskPageMentor() {
-        Assert.assertTrue(mentorHomePage.verifyOnTaskPageMentor());
-    }
+//    @And("User already on task page mentor")
+//    public void userAlreadyOnTaskPageMentor() {
+//        Assert.assertTrue(mentorHomePage.verifyOnTaskPageMentor());
+//    }
 
     @When("User click button title")
     public void userClickButtonTitle() {

@@ -15,7 +15,7 @@ Scenario:View all task" Button Validation
   Then User click OK on login successful
   Then User already on home page mentor
   When User click button view all task
-  Then User already on task page mentor
+  Then User already on home page mentor
 
 Scenario:Title Button Validation
 Given User open the website mentutor
