@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a22201b-c1bd-43b0-b969-9e9043225ace" name="Changes" comment="update AdminHome">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MenteeForumPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/Utils/ConstantMenteeForum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MenteeForumSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Images/MenteeForumImages.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObject/AdminHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/AdminHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/AdminHomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/AdminHomeSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AdminHome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AdminHome.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/MentorForum" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -41,23 +47,28 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/AdminHome",
-    "last_opened_file_path": "D:/alfian/Coba web testing",
+    "git-widget-placeholder": "feature/MenteeForum",
+    "last_opened_file_path": "D:/alfian/AutomationTesting-Website-Mentutor/src/test/resources/Images",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Submit button validation on popup edit user is blank on home admin">
-    <configuration name="Scenario: Dropdown button validation on home admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\alfian\AutomationTesting-Website-Mentutor\src\test\resources\Images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Send with valid data and valid image as attachment">
+    <configuration name="Scenario: Click send with less than 5 character" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminHome.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Dropdown button validation on home admin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Dropdown button validation on home admin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Dropdown button validation on home admin" />
+      <option name="NAME_FILTER" value="^Click send with less than 5 character$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Click send with less than 5 character$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Click send with less than 5 character" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -69,15 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Edit button validation on home admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Input Special Character on forum mentee field" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminHome.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Edit button validation on home admin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Edit button validation on home admin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Edit button validation on home admin" />
+      <option name="NAME_FILTER" value="^Input Special Character on forum mentee field$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Input Special Character on forum mentee field$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Input Special Character on forum mentee field" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -89,15 +100,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Elipsis button validation on task mentor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Send with no data and Images file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Elipsis button validation on task mentor$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Elipsis button validation on task mentor$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Elipsis button validation on task mentor" />
+      <option name="NAME_FILTER" value="^Send with no data and Images file$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Send with no data and Images file$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Send with no data and Images file" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -109,15 +120,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Submit button validation on popup edit user is blank on home admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Send with valid data and valid image as attachment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminHome.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Submit button validation on popup edit user is blank on home admin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Submit button validation on popup edit user is blank on home admin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Submit button validation on popup edit user is blank on home admin" />
+      <option name="NAME_FILTER" value="^Send with valid data and valid image as attachment$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Send with valid data and valid image as attachment$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Send with valid data and valid image as attachment" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -129,15 +140,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Submit button validation on popup edit user on home admin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify the forum field is enabled" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AdminHome.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Submit button validation on popup edit user on home admin$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Submit button validation on popup edit user on home admin$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Submit button validation on popup edit user on home admin" />
+      <option name="NAME_FILTER" value="^Verify the forum field is enabled$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify the forum field is enabled$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify the forum field is enabled" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -164,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Submit button validation on popup edit user is blank on home admin" />
-        <item itemvalue="Cucumber Java.Scenario: Submit button validation on popup edit user on home admin" />
-        <item itemvalue="Cucumber Java.Scenario: Dropdown button validation on home admin" />
-        <item itemvalue="Cucumber Java.Scenario: Edit button validation on home admin" />
-        <item itemvalue="Cucumber Java.Scenario: Elipsis button validation on task mentor" />
+        <item itemvalue="Cucumber Java.Scenario: Send with valid data and valid image as attachment" />
+        <item itemvalue="Cucumber Java.Scenario: Send with no data and Images file" />
+        <item itemvalue="Cucumber Java.Scenario: Click send with less than 5 character" />
+        <item itemvalue="Cucumber Java.Scenario: Input Special Character on forum mentee field" />
+        <item itemvalue="Cucumber Java.Scenario: Verify the forum field is enabled" />
       </list>
     </recent_temporary>
   </component>
