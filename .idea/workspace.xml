@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a22201b-c1bd-43b0-b969-9e9043225ace" name="Changes" comment="update AdminHome">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MenteeForumPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/Utils/ConstantMenteeForum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MenteeForumSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Images/MenteeForumImages.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MenteeForumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MenteeForumPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MenteeForumSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MenteeForumSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,32 +42,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/MenteeForum",
-    "last_opened_file_path": "D:/alfian/AutomationTesting-Website-Mentutor/src/test/resources/Images",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/MenteeForum&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/alfian/AutomationTesting-Website-Mentutor/src/test/resources/Images&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\alfian\AutomationTesting-Website-Mentutor\src\test\resources\Images" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Send with valid data and valid image as attachment">
-    <configuration name="Scenario: Click send with less than 5 character" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: MenteeForum">
+    <configuration name="Feature: MenteeForum" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Click send with less than 5 character$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Click send with less than 5 character$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Click send with less than 5 character" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: MenteeForum" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -80,35 +78,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Input Special Character on forum mentee field" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Click Send on comment with less than 5 character" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Input Special Character on forum mentee field$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Input Special Character on forum mentee field$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Input Special Character on forum mentee field" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Send with no data and Images file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Send with no data and Images file$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Send with no data and Images file$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Send with no data and Images file" />
+      <option name="NAME_FILTER" value="^Click Send on comment with less than 5 character$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Click Send on comment with less than 5 character$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Click Send on comment with less than 5 character" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -140,15 +118,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify the forum field is enabled" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Send with valid data with no image as attachment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Verify the forum field is enabled$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify the forum field is enabled$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify the forum field is enabled" />
+      <option name="NAME_FILTER" value="^Send with valid data with no image as attachment$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Send with valid data with no image as attachment$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Send with valid data with no image as attachment" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify comment field is enabled" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="BDDSauceDemo" />
+      <option name="NAME_FILTER" value="^Verify comment field is enabled$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify comment field is enabled$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify comment field is enabled" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -175,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: MenteeForum" />
+        <item itemvalue="Cucumber Java.Scenario: Click Send on comment with less than 5 character" />
         <item itemvalue="Cucumber Java.Scenario: Send with valid data and valid image as attachment" />
-        <item itemvalue="Cucumber Java.Scenario: Send with no data and Images file" />
-        <item itemvalue="Cucumber Java.Scenario: Click send with less than 5 character" />
-        <item itemvalue="Cucumber Java.Scenario: Input Special Character on forum mentee field" />
-        <item itemvalue="Cucumber Java.Scenario: Verify the forum field is enabled" />
+        <item itemvalue="Cucumber Java.Scenario: Verify comment field is enabled" />
+        <item itemvalue="Cucumber Java.Scenario: Send with valid data with no image as attachment" />
       </list>
     </recent_temporary>
   </component>
