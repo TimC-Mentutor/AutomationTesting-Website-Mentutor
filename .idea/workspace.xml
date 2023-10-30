@@ -6,15 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4a22201b-c1bd-43b0-b969-9e9043225ace" name="Changes" comment="update AdminInputMember case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MentorHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MentorHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MentorTaskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MentorTaskPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MentorHomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MentorHomeSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MentorTaskSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MentorTaskSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MentorProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageObject/MentorProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MentorProfileSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MentorProfileSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/MentorForum.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MentorForum.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MentorHome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MentorHome.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/MentorProfile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MentorProfile.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
     &quot;associatedIndex&quot;: 7
@@ -48,7 +47,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Title Button Validation">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Input with invalid email">
     <configuration name="Scenario: Attachment Button Validation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorHome.feature" />
@@ -58,6 +57,26 @@
       <option name="NAME_FILTER" value="^Attachment Button Validation$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Attachment Button Validation$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Attachment Button Validation" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Input with invalid email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorProfile.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="BDDSauceDemo" />
+      <option name="NAME_FILTER" value="^Input with invalid email$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Input with invalid email$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Input with invalid email" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -89,15 +108,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify button hide is working on forum mentor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify button Load More Comments is working on forum mentor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorForum.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Verify button hide is working on forum mentor$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify button hide is working on forum mentor$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify button hide is working on forum mentor" />
+      <option name="NAME_FILTER" value="^Verify button Load More Comments is working on forum mentor$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify button Load More Comments is working on forum mentor$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify button Load More Comments is working on forum mentor" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -109,35 +128,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify the paper plane is working on forum mentor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify button submit working" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorForum.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorProfile.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Verify the paper plane is working on forum mentor$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify the paper plane is working on forum mentor$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify the paper plane is working on forum mentor" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: input comment less than 5 string" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorForum.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^input comment less than 5 string$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^input comment less than 5 string$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: input comment less than 5 string" />
+      <option name="NAME_FILTER" value="^Verify button submit working$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify button submit working$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify button submit working" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -164,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Input with invalid email" />
+        <item itemvalue="Cucumber Java.Scenario: Verify button submit working" />
+        <item itemvalue="Cucumber Java.Scenario: Verify button Load More Comments is working on forum mentor" />
         <item itemvalue="Cucumber Java.Scenario: Title Button Validation" />
         <item itemvalue="Cucumber Java.Scenario: Attachment Button Validation" />
-        <item itemvalue="Cucumber Java.Scenario: Verify the paper plane is working on forum mentor" />
-        <item itemvalue="Cucumber Java.Scenario: Verify button hide is working on forum mentor" />
-        <item itemvalue="Cucumber Java.Scenario: input comment less than 5 string" />
       </list>
     </recent_temporary>
   </component>

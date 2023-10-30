@@ -40,6 +40,7 @@ Feature:Mentor task
     And User already on edit profile
     When User input "Aamanda" as a name "amanda@gmail.com" as a email "Amanda1234*" as a password "MentorProfile.png" as a profile
     Then User click button submit edit profile
+    Then User click button OK succes update profile on profile mentor page
 
   Scenario:Input with invalid email
     Given User open the website mentutor

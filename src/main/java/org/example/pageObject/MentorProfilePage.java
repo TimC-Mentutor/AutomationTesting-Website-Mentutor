@@ -31,6 +31,8 @@ public class MentorProfilePage {
     private WebElement editImagesProfileMentor;
     @FindBy(xpath = "//button[@id='btn-submitMentee']")
     public static WebElement buttonSubmitEdtProflMentor;
+    @FindBy(xpath = "//button[@class='swal2-confirm swal2-styled']")
+    public static WebElement buttonOKsuccesUpdateProfileMentorPage;
 
 
 
@@ -63,5 +65,8 @@ public class MentorProfilePage {
     public void setEditImagesProfileMentor(String edtimgsPrflMntr) {
         ((JavascriptExecutor)webDriver).executeScript("arguments[0].setAttribute('style', 'visibility:visible'); arguments[0].setAttribute('style', 'display:block');", editImagesProfileMentor);
         editImagesProfileMentor.sendKeys(edtimgsPrflMntr);
+    }
+    public void clickButtonOkSuccessUpdateProfileMentorPage() {
+        buttonOKsuccesUpdateProfileMentorPage.click();
     }
 }

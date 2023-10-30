@@ -55,5 +55,11 @@ public class MentorProfileSteps {
 
     }
 
+    @Then("User click button OK succes update profile on profile mentor page")
+    public void userClickButtonOKSuccesUpdateProfileOnProfileMentorPage() {
+        driverWait.until(ExpectedConditions.elementToBeClickable(MentorProfilePage.buttonOKsuccesUpdateProfileMentorPage));
+        mentorProfilePage.clickButtonOkSuccessUpdateProfileMentorPage();
 
+
+    }
 }
