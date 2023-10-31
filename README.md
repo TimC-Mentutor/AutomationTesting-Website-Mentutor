@@ -15,7 +15,7 @@
 ## Report Test Overall.
 
 
-## Coverage Every Features (optional).
+## Coverage Every Features.
 
 </div>
 <h2> Tools & Technology Stack. </h2>
