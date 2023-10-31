@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a22201b-c1bd-43b0-b969-9e9043225ace" name="Changes" comment="update AdminInputMember case">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4a22201b-c1bd-43b0-b969-9e9043225ace" name="Changes" comment="update final projects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MenteeTask.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MenteeTask.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AdminHome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/1AdminHome.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AdminInputClass.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/2AdminInputClass.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AdminInputMember.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/3AdminInputMember.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/10MenteeForum.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MenteeHome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/8MenteeHome.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MenteeTask.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/5MenteeTask.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MentorForum.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/6MentorForum.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MentorHome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/4MentorHome.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MentorProfile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/7MentorProfile.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MentorTask.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/9MentorTask.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,27 +52,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Input with invalid email">
-    <configuration name="Scenario: Attachment Button Validation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorHome.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Attachment Button Validation$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Attachment Button Validation$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Attachment Button Validation" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify comment field is enabled">
     <configuration name="Scenario: Input with invalid email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorProfile.feature" />
@@ -75,26 +62,6 @@
       <option name="NAME_FILTER" value="^Input with invalid email$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Input with invalid email$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Input with invalid email" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Title Button Validation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MentorHome.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDSauceDemo" />
-      <option name="NAME_FILTER" value="^Title Button Validation$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Title Button Validation$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Title Button Validation" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -146,6 +113,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verify comment field is enabled" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeForum.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="BDDSauceDemo" />
+      <option name="NAME_FILTER" value="^Verify comment field is enabled$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify comment field is enabled$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify comment field is enabled" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: &quot;Upload&quot; button validation on task feature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MenteeTask.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="BDDSauceDemo" />
+      <option name="NAME_FILTER" value="^\&quot;Upload\&quot; button validation on task feature$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\&quot;Upload\&quot; button validation on task feature$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: &quot;Upload&quot; button validation on task feature" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Coba web testing" />
       <method v="2">
@@ -161,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify comment field is enabled" />
+        <item itemvalue="Cucumber Java.Scenario: &quot;Upload&quot; button validation on task feature" />
         <item itemvalue="Cucumber Java.Scenario: Input with invalid email" />
         <item itemvalue="Cucumber Java.Scenario: Verify button submit working" />
         <item itemvalue="Cucumber Java.Scenario: Verify button Load More Comments is working on forum mentor" />
-        <item itemvalue="Cucumber Java.Scenario: Title Button Validation" />
-        <item itemvalue="Cucumber Java.Scenario: Attachment Button Validation" />
       </list>
     </recent_temporary>
   </component>
@@ -186,11 +193,20 @@
       <option name="project" value="LOCAL" />
       <updated>1698657460604</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update final projects">
+      <option name="closed" value="true" />
+      <created>1698730507066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698730507066</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update AdminInputMember case" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="update final projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="update final projects" />
   </component>
 </project>

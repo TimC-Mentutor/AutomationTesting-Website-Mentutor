@@ -1,3 +1,4 @@
+@MENTUTOR
 @Admin
 Feature: Admin Input Class
   @AdminInputClass
