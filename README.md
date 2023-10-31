@@ -18,7 +18,7 @@
 ## Coverage Every Features (optional).
 
 </div>
-## Tools & Technology Stack.
+<h2> Tools & Technology Stack. </h2>
 <div>
 <p>Manual Testing</p>
       <a><img src="https://img.shields.io/badge/-Postman-181717?style=for-the-badge&logo=postman&color=121B4F&logoColor=white"></a>
@@ -54,6 +54,6 @@ $ mvn clean verify
 </div>
 
 ## Team C Member :
-* [Alfian Septy Chandra](https://github.com/Ryouta021) <br> [![GitHub](https://img.shields.io/badge/alfiansepty-chandra-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alfianadityads)
-* [Binti Nayla Wafiroh](https://github.com/inaylalala) <br> [![GitHub](https://img.shields.io/badge/bintinayla-wafiroh-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/faruqiizu)
-* [Izzuddin Faruqi](https://github.com/faruqiizu) <br> [![GitHub](https://img.shields.io/badge/izzuddin-faruqi-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fathiyahrr)
+* [Alfian Septy Chandra](https://github.com/Ryouta021) <br> [![GitHub](https://img.shields.io/badge/Ryouta021-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ryouta021)
+* [Binti Nayla Wafiroh](https://github.com/inaylalala) <br> [![GitHub](https://img.shields.io/badge/inaylalala-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/inaylalala)
+* [Izzuddin Faruqi](https://github.com/faruqiizu) <br> [![GitHub](https://img.shields.io/badge/faruqiizu-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/faruqiizu)
