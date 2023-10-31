@@ -13,7 +13,7 @@
 
     Scenario: "Upload" button validation on task feature
       Given User open the website mentutor
-      When User input "mentee.menteemtk@gmail.com" as a email "Mentee123$" as a password
+      When User input "alfiansepty01@gmail.com" as a email "Alfian123#" as a password
       Then User click OK on login successful
       And User click on mentee task button
       And User already on task page
@@ -22,7 +22,7 @@
 
     Scenario: Submit button with valid data
       Given User open the website mentutor
-      When User input "mentee.menteemtk@gmail.com" as a email "Mentee123$" as a password
+      When User input "alfiansepty01@gmail.com" as a email "Alfian123#" as a password
       Then User click OK on login successful
       And User click on mentee task button
       And User already on task page
@@ -33,7 +33,7 @@
 
     Scenario: Submit button with no data
       Given User open the website mentutor
-      When User input "mentee.menteemtk@gmail.com" as a email "Mentee123$" as a password
+      When User input "alfiansepty01@gmail.com" as a email "Alfian123#" as a password
       Then User click OK on login successful
       And User click on mentee task button
       And User already on task page
